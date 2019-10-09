@@ -1,0 +1,303 @@
+
+* {font-family:Arial;
+	margin:0;
+	padding:0;
+}
+
+
+
+ol {
+  list-style-type:none;
+  padding:1em;
+
+  font-size:18px;
+ height:6em;
+  line-height:2em;
+  text-align:center;
+	
+}
+
+ol > li {
+  float:left;
+  background-color:#2868d2;
+	color: #def;
+	border-top: 10px solid #00009b;
+  width:230px;
+}
+
+ol a {
+  display:block;
+  color: #def;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+ol > li > a:hover {
+  color:#ffffff;
+	
+}
+
+ol > li:hover {
+  background-color:#5793f7;
+	color:#ffffff;
+	
+}
+
+ol > li a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
+
+ol > li > ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+ol > li {
+  float:left;
+  background-color:#2868d2;
+  width:150px;
+  margin-left:1px;
+}
+
+ol > li:first-child {
+  margin-left:0;
+}
+
+
+ol > li > ul > li > a {
+  border-top:1px solid #FFF;
+	color:#25b;
+}	
+	
+ol > li > ul > li {
+  background-color:#EEE;
+}
+
+ol > li > ul > li:hover {
+  background-color:#ffffff;
+}
+
+ol > li > ul > li:hover a {
+	
+  color:#4848ff;
+}
+	
+ol > li > ul {
+  display:none;
+}
+
+ol > li:hover > ul {
+  display:block;
+}	
+	
+
+h1 {
+
+color:#00009b;
+font-size:50px;
+margin-left:100px;
+		}
+	
+/*ol {position:absolute;}*/
+
+body {background-color:#b8d7fa;}
+
+h2,h3 {background:#25b ;
+			color:#f5fafe;
+			border-left: 2px solid #00009b;
+			border-bottom: 2px solid #00009b;
+			
+			}
+
+#wrapper {
+					margin: 0 15px 0 15px;
+					background-color:#cde2fc;
+					padding:20px;
+					}
+					
+					
+					
+
+
+footer {text-align: center;}
+
+table#space {border-spacing: 23mm;}
+
+
+						
+table#klubik {border-spacing: 35mm;}
+
+
+p#frame {text-Align:center;}
+
+
+
+
+
+
+a#polityka:hover{background-color: white;
+} 
+
+@keyframes anim_m1
+{
+0% {transform:rotateX(0);}
+25%{transform:rotateX(90deg);}
+50%{transform:rotateX(180deg);}
+75%{transform:rotateX(270deg);}
+100%{transform:rotateX(360deg);}
+}
+
+img.anim:hover{animation:anim_m1 6s linear ;}
+
+a#licznik {text-align: right;}
+
+img#szkola {
+						height:25%;
+						
+						
+}
+
+img#szkoladwa {
+						height:5%;
+						
+						
+						
+}
+
+img#skater {width:22%;
+						height:22%;
+						display:block;
+						
+						
+}
+
+
+
+
+p#frame{width:100%;
+						height:100%;
+						display:block;}
+						
+div#klubowy > img#skater
+
+ {
+    float: right;
+    margin: 2%;
+}
+
+
+
+td {text-align: center;} 
+ 
+th {
+color:#101278;
+}
+
+tr#pierwszy {background-color:#b8d7fa;
+}
+
+th {background-color:#b8d7fa;
+}
+
+ td#drugi {background-color:#b8d7fa;
+}
+
+table#ceny {
+border: 2px solid #101278; 
+width:50%;
+}
+
+
+
+div#klubowy >  p#plywajacy {margin: 25px 15px 195px 15px;
+														line-height:28px;
+
+}
+
+p.odstep {line-height:28px;
+
+
+}
+
+div#blondyna > img.anim
+
+ {
+    float: left;
+    margin: 2%;
+}
+
+div#hiszpania > img.anim
+
+ {
+    float: left;
+    margin: 2%;
+}
+
+
+
+div#kanada > img.anim
+
+ {	clear:left;
+    float: left;
+    margin: 2%;
+}
+
+
+div#polska > img.anim
+
+ {	clear:left;
+    float: left;
+    margin: 2%;
+}
+
+
+
+div#blondyna > p#opis {margin: 25px 15px 195px 15px;
+			padding-top:20px;											line-height:28px;
+
+}
+
+div#hiszpania > img.anim
+
+ {  clear:left;
+    float: left;
+    margin: 2%;
+}
+
+
+div#hiszpania > p#opisdwa {margin: 25px 15px 195px 15px;
+				padding-top:20px;
+														line-height:28px;}
+
+div#kanada > p#opistrzy {margin: 25px 15px 195px 15px;
+padding-top:20px;
+														line-height:28px;	}													
+
+div#polska > p#opiscztery {margin: 65px 15px 195px 15px;
+padding-top:20px;
+														line-height:28px;}														
+																									
+																									
+table.menu 	{text-align:center;}
+
+
+img.anim {width: 10%;
+					height: 20%;
+					display:block;
+}
+
+iframe#mapa {width: 30%;
+					height: 30%;
+					display:block;
+}
+
+
+@media screen and (max-width:800px)
+{
+#wrapper {width:auto; margin:15px;}
+nav  ol  li {float:none;}
+ol {height:15em;
+position:absolute;}
+}
